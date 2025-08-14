@@ -1,3 +1,5 @@
+import { Footer } from "@/components/footer";
+import { Header } from "@/components/header";
 import { ThemeProvider } from "@/components/theme-provider.tsx";
 import { ModeToggle } from "@/components/theme-toggle";
 import { Button } from "@/components/ui/button"
@@ -5,10 +7,17 @@ import { Button } from "@/components/ui/button"
 
 const Home = () => {
     return (
-        <div>
-            <Button>Você clicou</Button>
+        <div className="w-full max-w-4xl mx-auto">
 
-            <ModeToggle />
+            <Header />
+
+            <main>
+                <div className="mx-3">
+                    Lista
+                </div>
+                <Footer />
+            </main>
+
         </div>
     )
 }
