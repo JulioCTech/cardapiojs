@@ -11,13 +11,13 @@ const Home = () => {
 
             <Header />
 
-            <main>
-                <div className="mx-3">
-                    Lista
-                </div>
-                <Footer />
-            </main>
 
+            <div className="mx-3">
+                Lista
+            </div>
+
+
+            <Footer />
         </div>
     )
 }
