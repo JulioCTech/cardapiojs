@@ -35,7 +35,6 @@ export const CartSidebar = () => {
 
                     </div>
 
-
                 </SheetDescription>
             </SheetContent>
         </Sheet>
