@@ -48,7 +48,7 @@ export const ProductsTab = async () => {
             </TabsList>
             {tabs.map(item => (
                 <TabsContent
-
+                    key={item.value}
                     value={item.value}
                     className="mt-6"
                 >
