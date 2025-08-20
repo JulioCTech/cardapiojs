@@ -7,7 +7,7 @@ export const CartSidebar = () => {
 
     return (
         <Sheet>
-            <SheetTrigger>
+            <SheetTrigger asChild>
                 <Button>
                     <ShoppingCart />
                     <p>Carrinho</p>
@@ -19,7 +19,7 @@ export const CartSidebar = () => {
                 </SheetHeader>
                 <SheetDescription className="p-3">
                     <div className="flex flex-col gap-5 my-3">
-                        .....
+                        ....
                     </div>
                     <Separator className="my-4" />
 
